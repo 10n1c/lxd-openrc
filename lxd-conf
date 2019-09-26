@@ -1,0 +1,2 @@
+# Set extra arguments for the LXD daemon
+LXD_OPTIONS="--logfile /var/log/lxd/lxd.log"

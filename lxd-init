@@ -4,8 +4,6 @@
 # OpenRC service script for LXD
 #
 
-LXD_OPTIONS="--logfile /var/log/lxd/lxd.log"
-
 command="/usr/sbin/lxd"
 command_args="${LXD_OPTIONS}"
 command_background="true"
