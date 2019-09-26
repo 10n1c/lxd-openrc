@@ -6,7 +6,7 @@
 command="/usr/sbin/lxd"
 command_args="${LXD_OPTIONS}"
 command_background="true"
-command_user="root:lxd"
+#command_user="root:lxd"
 pidfile="/var/run/${RC_SVCNAME}.pid"
 
 depend() {
